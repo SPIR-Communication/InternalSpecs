@@ -20,12 +20,13 @@ Pod::Spec.new do |s|
                           'Classes/SPIRAuthentication.h',
                           'Classes/ISPIRAuthentication.h',
                           'Classes/Models/Base/ApplicationBundleInfo.h',
-			  'Classes/Models/Base/SPIRFunction.h',
-			  'Classes/Models/Base/SPIRFunctions.h',
-			  'Classes/Models/Base/SPIRUser.h',
+                          'Classes/Models/Base/SPIRFunction.h',
+			              'Classes/Models/Base/SPIRFunctions.h',
+			              'Classes/Models/Base/SPIRUser.h',
                           'Classes/Models/Common/*.h'
 
-  s.source_files = 'Classes/Models/Common/**/*.{m,h,c}'
+  s.source_files = 'Classes/**/*.{m,h,c}'
+  s.exclude_files = 'Classes/Models/Base/*.{m,h}'
 
   s.subspec 'Base' do |sp|
     sp.source_files = 'Classes/Models/Base/**/*.{m,h,c}'
