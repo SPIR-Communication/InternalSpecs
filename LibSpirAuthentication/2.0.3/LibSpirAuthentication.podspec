@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
   end
 
   s.dependency 'NSData+Base64', '1.0.0'
-  s.dependency 'LibSpirCore', '~> 1.1.0'
+  s.dependency 'LibSpirCore', '~> 1.2.0'
 
 end
