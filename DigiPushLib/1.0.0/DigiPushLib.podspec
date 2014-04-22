@@ -26,9 +26,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |sp|
     sp.public_header_files = 'Classes/ICEXSearch.h',
                              'Classes/Core/CEXDigipushServices.h',
-			     			 'Classes/Core/Models/CEXSearch.h',
-			     			 'Classes/Core/Models/CEXGeoZones.h',
-			     			 'Classes/Core/Models/CEXMarketingCriterias.h'
+			     			 'Classes/Core/Models/CEXSearch.h'
 
     sp.source_files = 'Classes/ICEXSearch.h',
                       'Classes/Core/**/*.{m,h,c}'
