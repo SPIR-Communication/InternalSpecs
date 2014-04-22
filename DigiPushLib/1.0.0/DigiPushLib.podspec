@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                              'Classes/Core/CEXDigipushServices.h',
 			     			 'Classes/Core/Models/CEXSearch.h',
 			     			 'Classes/Core/Models/CEXGeoZones.h',
-			     			 'Classes/Core/Models/CEXMarketingCriteria.h'
+			     			 'Classes/Core/Models/CEXMarketingCriterias.h'
 
     sp.source_files = 'Classes/ICEXSearch.h',
                       'Classes/Core/**/*.{m,h,c}'
