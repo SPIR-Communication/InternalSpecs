@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.summary      = 'Adds new product type (Digipush SMS and Mail) to CEX product set. '
   s.description  = 'SPIR Communication internal library used in CEX application for Digipush SMS and Mail'
 
-  s.platform     = :ios, '6.1'
-  s.ios.deployment_target = '6.1'
+  s.platform     = :ios, '5.0'
+  s.ios.deployment_target = '5.0'
 
   s.requires_arc = false
 
