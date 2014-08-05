@@ -16,7 +16,9 @@ Pod::Spec.new do |s|
 
 
   s.source_files = "Classes/**/*.{m,h,c}"
-  s.public_header_files = 'Classes/WSKITProxies/WSKITProxyBase/WSKITVerbOperation.h', 
+  s.public_header_files = 'Classes/WSKITProxies/WSKITRequestManager.h',
+                          'Classes/WSKITProxies/WSKITProxyBase/WSKITProgressionHandler.h',
+                          'Classes/WSKITProxies/WSKITProxyBase/WSKITVerbOperation.h',
                           'Classes/WSKITProxies/WSKITProxyBase/WSKITProxyBase.h', 
                           'Classes/WSKITProxies/WSKITProxyBase/WSKITProxyProtocolBase.h', 
                           'Classes/WSKITProxies/WSKITProxyJSON/WSKITProxyBaseJSON.h', 
