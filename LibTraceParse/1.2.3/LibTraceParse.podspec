@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   
   s.frameworks = 'Foundation', 'CFNetwork', 'CoreTelephony'
   s.dependency 'Facebook-iOS-SDK', '3.13.1' # not needed but is a dependency of Parse, use fixed version to avoid unexpected upgrades...
-  s.dependency 'Parse', '1.2.11'
+  s.dependency 'Parse', '1.2.18'
   s.xcconfig     = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse/Parse.framework/Headers"' }
 end
