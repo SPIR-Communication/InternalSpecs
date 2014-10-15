@@ -27,6 +27,6 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'Foundation', 'CoreLocation', 'UIKit', 'MapKit'
 
-  s.dependency 'LibCexCore', '1.1.10'
+  s.dependency 'LibCexCore', '~>1.1.10'
   s.dependency 'EHAlertView', '0.0.1'
 end
