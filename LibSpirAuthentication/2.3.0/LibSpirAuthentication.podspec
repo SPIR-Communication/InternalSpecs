@@ -22,8 +22,7 @@ Pod::Spec.new do |s|
                  'Assets/SPIRAuthenticationiPhone.storyboard',
                 'Assets/SPIRAuthentication.xcassets'
 
-  s.public_header_files = 'Classes/ISPIRAuthentication.h',
-	  	          'Classes/SPIRAuthenticationBase.h',
+  s.public_header_files = 'Classes/SPIRAuthenticationBase.h',
                           'Classes/SPIRAuthentication.h',
                           'Classes/ISPIRAuthentication.h',
                           'Classes/SPIRAuthenticationViewController.h',
