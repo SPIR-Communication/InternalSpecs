@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.dependency 'MBProgressHUD',    '0.7.1'
   s.dependency 'LibCartegie',      '1.5.7'
   s.dependency 'ASIHTTPRequest',   '1.8.1'
-  s.dependency 'LibTraceParse',    '1.2.3'
+  s.dependency 'LibTraceParse',    '~>1.3.0'
 
 
 end
