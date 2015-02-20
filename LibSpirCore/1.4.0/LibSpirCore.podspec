@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.resources = 'Assets/**/*.*'
   s.exclude_files = 'Classes/SPIRUser+Private.{m,h}'
   s.requires_arc = true
-  s.frameworks = 'Foundation'
+  s.frameworks = 'Foundation','UIKit'
 
   s.dependency 'XMLReader', '0.0.2'
   s.dependency 'NSData+Base64', '1.0.0'
