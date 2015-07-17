@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.summary      =  'Managed the access to the CEX backend .'
   s.description  =  'SPIR Communication internal library for provide access on fully fonctionality Customer, Contact and Appoitment for vendor portfolio'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.prefix_header_file = 'Classes/CexCoreLib-Prefix.pch'
 
   s.source_files = "Classes/**/*.{m,h,c}"
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.dependency 'CorePlot',         '~>1.3.0'
   s.dependency 'EHAlertView',      '~>0.0.1'
   s.dependency 'MBProgressHUD',    '~>0.7.1'
-  s.dependency 'LibCartegie',      '~>1.6.0'
+  s.dependency 'LibCartegie',      '~>1.5.0'    # pour la CEX il faut imperativement garder 1.5.x qui ne dépend pos de la libAuthent
   s.dependency 'ASIHTTPRequest',   '~>1.8.1'
   s.dependency 'LibTraceParse',    '~>1.3.2'
 
