@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit'
 
-  s.dependency 'LibSpirAuthentication'
+  s.dependency 'LibSpirAuthentication', '~> 2.3.26'
   s.dependency 'TOWebViewController'
 
 end
